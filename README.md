@@ -2,6 +2,13 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![Screenshot 2023-10-30 215554](https://github.com/AbhishekPawshekar/Pixaby-image-fetching/assets/89447125/7cb396cb-dabf-4682-b059-540410699891)
+![Screenshot 2023-10-30 215520](https://github.com/AbhishekPawshekar/Pixaby-image-fetching/assets/89447125/bedce942-8f48-444d-9dac-fcc576d7a376)
+![Screenshot 2023-10-30 215554](https://github.com/AbhishekPawshekar/Pixaby-image-fetching/assets/89447125/2c777213-4e6c-4aa5-8033-798ef446fd88)
+
+
+
+
 ## Available Scripts
 
 In the project directory, you can run:
