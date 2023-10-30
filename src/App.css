@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.fetching_img{
   display: flex;
-  flex-direction: column;
+  width: 100%;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-wrap: wrap;
+  margin-top: 20px;
+  
+
+}
+.image_ img{
+  width: max-content;
+  height: max-content;
+}
+.Pixaby_nav{
+width: 100%;
+display: flex;
+justify-content: space-between;
+align-items: center;
+height: 12%;
+flex-wrap: wrap;
+}
+
+.Pixaby_nav div{
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+.Pixaby_header{
+  background-image: url("https://cdn.pixabay.com/photo/2014/01/17/22/59/beta-lyrae-247225_1280.jpg");
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size:cover;
+  min-height: 80vh;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.pixaby_main{
+  width: 100%;
+  min-height:60vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
+.pixaby_main h1{
+  font-size: 350%;
+}
+.pixaby_main div{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.search_input{
+  margin-top: 10px;
+  width: 80%;
+  height: 50px;
+  border-radius: 30px;
+  text-align: center;
+}
+.upload_button{
+  width: 100px;
+  height: 40px;
+  color: white;
+  background-color:#14BC7D;
+  border-radius: 30px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
